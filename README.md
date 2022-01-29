@@ -2,10 +2,10 @@
  Validate data type with express integration.
 
 # Supported Validation:
-• Boolean
-• String
-• Number
-• Object
+• Boolean  
+• String  
+• Number  
+• Object  
 • Array
 
 
