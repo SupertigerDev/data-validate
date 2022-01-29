@@ -2,10 +2,7 @@ const express = require("express");
 const { ValidateData } = require("../build")
 
 
-
-
 const app = express();
-
 
 app.post("/register", (req, res) => {
 
@@ -23,7 +20,7 @@ app.post("/register", (req, res) => {
   if (errors) return;
 
   someDB.createUser(req.body);
-  
+
 });
 
 
