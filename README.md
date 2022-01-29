@@ -1,6 +1,9 @@
 # Data Validate
  Validate data type with express integration.
 
+# Installation
+```npm i @supertiger/data-validate```
+
 # Supported Validation:
 • Boolean  
 • String  
@@ -12,7 +15,7 @@
 
 # Simple Example:
 ```js
-const {ValidateData} = require("../build")
+const {ValidateData} = require("@supertiger/data-validate")
 
 const validate = ValidateData.validate({
   username: "test",
@@ -39,7 +42,7 @@ console.log(errors) // -> null | {"key": "error message"}
 # Express Example:
 ```js
 const express = require("express");
-const { ValidateData } = require("../build")
+const { ValidateData } = require("@supertiger/data-validate")
 
 
 const app = express();
